@@ -1,0 +1,263 @@
+.navbar {
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+.login-btn  {
+  font-weight: bold;
+}
+
+.signup-btn {
+  border-radius: 90px;
+  min-width: 120px;
+  border:0;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px;
+  color: #222;
+  background: #00B404;
+  font-weight: bold;
+}
+
+.pt-10 {
+  padding-top: 10rem;
+  background: #C3F53C;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.section-carrusel {
+  padding: 2.5rem 0;
+  background: #000;
+  min-height: 300px;
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 4.2rem;
+
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 500px;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn-subscribe {
+  width: 140px;
+  border-radius: 90px;
+  background: #222;
+  outline: 0;
+  font-size: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-subscribe:hover {
+  color: #fff;
+}
+
+.hero-img {
+  margin-top: 3rem;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  
+  text-align: center;
+}
+
+.section-intro {
+  width: 100%;
+  margin-top: 40px;
+  border-top: 1px solid #222;
+  padding: 20px 0;
+}
+
+.bg-black {
+  background: #000;
+  width: 100%;
+  min-height: 400px;
+}
+
+.section-info {
+  padding: 50px 0;
+}
+
+.intro-content {
+  width: 100%;
+  max-width: 650px;
+}
+
+.light-text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ddd;
+}
+
+.flex-items {
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.flex--item {
+  margin-bottom: 20px;
+}
+
+.flex--item .item-title {
+  font-weight: bold;
+  font-size: 15px;
+  padding: .5rem 0;
+}
+
+.flex--item .text {
+  text-align: start !important;
+}
+
+.email--form {
+  position: relative;
+  max-width: 320px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.input-email {
+  background: #F5F8FA;
+  border-radius: 90px;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  max-width: 320px;
+  padding: 15px;
+}
+
+#carouselExampleControls {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+}
+
+.carousel-inner {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  height: 260px;
+}
+
+.color-white {
+  color: #fff;
+  text-align: center;;
+}
+
+.form-email__button {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  height: 44px;
+  margin: auto;
+}
+
+.alert-msg {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b4b4b4;
+  display:flex;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.circle {
+  border-radius: 50%;
+  font-size: 16px;
+  height: 30px;
+  width: 30px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #b4b4b4;
+  margin-right: 10px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+
+}
+
+.align-center {
+  align-items: center;
+}
+
+.section-produts {
+  background: #F0EBE6;
+  width: 100%;
+  min-height: 400px;
+}
+
+.nav-toggle {
+  font-size: 18px;
+  color: #b4b4b4;
+  margin-right: 10px;
+  transition: ease color .3s;
+  cursor: pointer;
+  
+  margin-right: auto;
+}
+
+.nav-toggle:hover {
+  color: #000;
+}
+
+.flex {
+  display:flex;
+  height: 100px;;
+  flex-grow: 1;
+}
+
+.container-flex-oolumn{
+  display:flex;
+  flex-direction: column;
+}
+
+.flex-reverse {
+  flex-direction: column-reverse;
+}
+
+.nm {
+  margin: 0;
+  flex-grow:64;
+}
+
+.nav-toggle-active {
+  color: #000;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 414px) {
+  .flex-items {
+    flex-wrap: unset;
+  }
+  .flex-reverse {
+    flex-direction: unset;
+  }
+  
+}
